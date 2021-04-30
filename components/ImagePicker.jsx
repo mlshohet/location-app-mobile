@@ -17,6 +17,7 @@ const ImgPicker = props => {
 			);
 			return false;
 		}
+		return true;
 	};
 
 	const takeImageHandler = async () => {
